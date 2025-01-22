@@ -1,0 +1,50 @@
+.woDetailTabview{
+    overflow: auto;
+    height: 100%;
+    max-height: calc(100vh - 400px);
+   
+}
+.woDetailTabview .p-tabview-nav-container{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: red !important;
+}
+.dashboardTab .p-tabview-nav-container{
+    z-index: 800 !important;
+}
+
+.woDetailTabview::-webkit-scrollbar {
+    width: .3em;
+}
+
+.woDetailTabview::-webkit-scrollbar,
+.woDetailTabview::-webkit-scrollbar-thumb {
+    /* overflow:visible; */
+    border-radius: 4px;
+}
+
+.woDetailTabview::-webkit-scrollbar-thumb {
+    background: rgba(87, 82, 82, 0.2);
+}
+
+.ScrollViewAssigneeTab {
+    overflow: auto;
+    height: 100%;
+    max-height: calc(100vh - 580px);
+    /* max-height: 100px; */
+}
+ 
+.ScrollViewAssigneeTab::-webkit-scrollbar {
+    width: .3em;
+}
+ 
+.ScrollViewAssigneeTab::-webkit-scrollbar-thumb {
+    background: rgba(87, 82, 82, 0.2);
+}
+ 
+.ScrollViewAssigneeTab::-webkit-scrollbar,
+.ScrollViewAssigneeTab::-webkit-scrollbar-thumb {
+    /* overflow:visible; */
+    border-radius: 4px;
+}
